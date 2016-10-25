@@ -26,7 +26,7 @@ extension UIButton{
             btn.setBackgroundImage(UIImage(named: tmpSelectName), forState: .Selected)
         }
         if target != nil && action != nil{
-            btn .addTarget(selectImageName, action: action, forControlEvents: .TouchUpInside)
+            btn .addTarget(target, action: action, forControlEvents: .TouchUpInside)
         }
         return btn
     }

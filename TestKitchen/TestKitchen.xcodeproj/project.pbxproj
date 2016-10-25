@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		42A392BE9A0C1FF15E663F94 /* Pods_TestKitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02B36257739169840F4A6334 /* Pods_TestKitchen.framework */; };
+		E805C4091DBD9BF600CFE871 /* Controllers.json in Resources */ = {isa = PBXBuildFile; fileRef = E805C4081DBD9BF600CFE871 /* Controllers.json */; };
+		E805C40B1DBDACF100CFE871 /* KTCDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805C40A1DBDACF100CFE871 /* KTCDownloader.swift */; };
+		E805C40D1DBDB6CB00CFE871 /* IngreRecommend.swift in Sources */ = {isa = PBXBuildFile; fileRef = E805C40C1DBDB6CB00CFE871 /* IngreRecommend.swift */; };
+		E86E6F1E1DBEED58002660CE /* IngreRecommendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86E6F1D1DBEED58002660CE /* IngreRecommendView.swift */; };
+		E86E6F211DBEF392002660CE /* IngreBannerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86E6F1F1DBEF392002660CE /* IngreBannerCell.swift */; };
+		E86E6F221DBEF392002660CE /* IngreBannerCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86E6F201DBEF392002660CE /* IngreBannerCell.xib */; };
+		E86E6F241DBEF814002660CE /* sdefaultImage.png in Resources */ = {isa = PBXBuildFile; fileRef = E86E6F231DBEF814002660CE /* sdefaultImage.png */; };
+		E86E6F271DBF09EE002660CE /* IngreLikeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E86E6F251DBF09EE002660CE /* IngreLikeCell.swift */; };
+		E86E6F281DBF09EE002660CE /* IngreLikeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E86E6F261DBF09EE002660CE /* IngreLikeCell.xib */; };
 		E8958A531DBA11A100773D37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8958A521DBA11A100773D37 /* AppDelegate.swift */; };
 		E8958A551DBA11A100773D37 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8958A541DBA11A100773D37 /* ViewController.swift */; };
 		E8958A581DBA11A100773D37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8958A561DBA11A100773D37 /* Main.storyboard */; };
@@ -50,6 +59,15 @@
 		01C3E0677BC4D906D6AB5567 /* Pods-TestKitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.debug.xcconfig"; sourceTree = "<group>"; };
 		02B36257739169840F4A6334 /* Pods_TestKitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		485EA1CFD110FAA6B0D88906 /* Pods-TestKitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKitchen.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestKitchen/Pods-TestKitchen.release.xcconfig"; sourceTree = "<group>"; };
+		E805C4081DBD9BF600CFE871 /* Controllers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Controllers.json; sourceTree = "<group>"; };
+		E805C40A1DBDACF100CFE871 /* KTCDownloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KTCDownloader.swift; sourceTree = "<group>"; };
+		E805C40C1DBDB6CB00CFE871 /* IngreRecommend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommend.swift; sourceTree = "<group>"; };
+		E86E6F1D1DBEED58002660CE /* IngreRecommendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreRecommendView.swift; sourceTree = "<group>"; };
+		E86E6F1F1DBEF392002660CE /* IngreBannerCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreBannerCell.swift; sourceTree = "<group>"; };
+		E86E6F201DBEF392002660CE /* IngreBannerCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreBannerCell.xib; sourceTree = "<group>"; };
+		E86E6F231DBEF814002660CE /* sdefaultImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sdefaultImage.png; sourceTree = "<group>"; };
+		E86E6F251DBF09EE002660CE /* IngreLikeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngreLikeCell.swift; sourceTree = "<group>"; };
+		E86E6F261DBF09EE002660CE /* IngreLikeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IngreLikeCell.xib; sourceTree = "<group>"; };
 		E8958A4F1DBA11A100773D37 /* TestKitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKitchen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8958A521DBA11A100773D37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8958A541DBA11A100773D37 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -169,11 +187,13 @@
 			isa = PBXGroup;
 			children = (
 				E8958A661DBA11C800773D37 /* BaseViewController.swift */,
-				E8958A671DBA11C800773D37 /* Const.swift */,
 				E8958A681DBA11C800773D37 /* MainTabBarViewController.swift */,
+				E805C4081DBD9BF600CFE871 /* Controllers.json */,
 				E8958A691DBA11C800773D37 /* UIButton+Common.swift */,
 				E8958A6A1DBA11C800773D37 /* UILabel+Common.swift */,
 				E8958A6B1DBA11C800773D37 /* UIView+Common.swift */,
+				E8958A671DBA11C800773D37 /* Const.swift */,
+				E805C40A1DBDACF100CFE871 /* KTCDownloader.swift */,
 			);
 			path = "common(公共类)";
 			sourceTree = "<group>";
@@ -321,6 +341,7 @@
 		E8958A801DBA11C800773D37 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				E805C40C1DBDB6CB00CFE871 /* IngreRecommend.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -328,6 +349,7 @@
 		E8958A811DBA11C800773D37 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E86E6F1D1DBEED58002660CE /* IngreRecommendView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -390,6 +412,10 @@
 		E8958A891DBA11C800773D37 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				E86E6F1F1DBEF392002660CE /* IngreBannerCell.swift */,
+				E86E6F201DBEF392002660CE /* IngreBannerCell.xib */,
+				E86E6F251DBF09EE002660CE /* IngreLikeCell.swift */,
+				E86E6F261DBF09EE002660CE /* IngreLikeCell.xib */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -525,6 +551,7 @@
 		E8958A9B1DBA11C800773D37 /* 公共 */ = {
 			isa = PBXGroup;
 			children = (
+				E86E6F231DBEF814002660CE /* sdefaultImage.png */,
 			);
 			path = "公共";
 			sourceTree = "<group>";
@@ -672,7 +699,9 @@
 				E8958ACE1DBA11C800773D37 /* mine_select@3x.png in Resources */,
 				E8958ACD1DBA11C800773D37 /* mine_select@2x.png in Resources */,
 				E8958AD11DBA11C800773D37 /* shike_select@2x.png in Resources */,
+				E86E6F281DBF09EE002660CE /* IngreLikeCell.xib in Resources */,
 				E8958AD21DBA11C800773D37 /* shike_select@3x.png in Resources */,
+				E805C4091DBD9BF600CFE871 /* Controllers.json in Resources */,
 				E8958AC31DBA11C800773D37 /* community_normal@2x.png in Resources */,
 				E8958ACB1DBA11C800773D37 /* mine_normal@2x.png in Resources */,
 				E8958AC81DBA11C800773D37 /* home_normal@3x.png in Resources */,
@@ -680,8 +709,10 @@
 				E8958AD61DBA11C800773D37 /* shop_select@3x.png in Resources */,
 				E8958ACA1DBA11C800773D37 /* home_select@3x.png in Resources */,
 				E8958A5A1DBA11A100773D37 /* Assets.xcassets in Resources */,
+				E86E6F241DBEF814002660CE /* sdefaultImage.png in Resources */,
 				E8958ACC1DBA11C800773D37 /* mine_normal@3x.png in Resources */,
 				E8958AC41DBA11C800773D37 /* community_normal@3x.png in Resources */,
+				E86E6F221DBEF392002660CE /* IngreBannerCell.xib in Resources */,
 				E8958AD41DBA11C800773D37 /* shop_normal@3x.png in Resources */,
 				E8958AD51DBA11C800773D37 /* shop_select@2x.png in Resources */,
 				E8958ACF1DBA11C800773D37 /* shike_normal@2x.png in Resources */,
@@ -748,16 +779,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				E8958ABA1DBA11C800773D37 /* MainTabBarViewController.swift in Sources */,
+				E86E6F211DBEF392002660CE /* IngreBannerCell.swift in Sources */,
 				E8958ABF1DBA11C800773D37 /* FoodClassViewController.swift in Sources */,
 				E8958A551DBA11A100773D37 /* ViewController.swift in Sources */,
 				E8958ABE1DBA11C800773D37 /* CommunityViewController.swift in Sources */,
 				E8958AB91DBA11C800773D37 /* Const.swift in Sources */,
+				E805C40D1DBDB6CB00CFE871 /* IngreRecommend.swift in Sources */,
 				E8958AC01DBA11C800773D37 /* IngredientsViewController.swift in Sources */,
 				E8958ABD1DBA11C800773D37 /* UIView+Common.swift in Sources */,
 				E8958A531DBA11A100773D37 /* AppDelegate.swift in Sources */,
 				E8958AC11DBA11C800773D37 /* MallViewController.swift in Sources */,
 				E8958ABB1DBA11C800773D37 /* UIButton+Common.swift in Sources */,
+				E86E6F271DBF09EE002660CE /* IngreLikeCell.swift in Sources */,
 				E8958AC21DBA11C800773D37 /* ProfileViewController.swift in Sources */,
+				E805C40B1DBDACF100CFE871 /* KTCDownloader.swift in Sources */,
+				E86E6F1E1DBEED58002660CE /* IngreRecommendView.swift in Sources */,
 				E8958AB81DBA11C800773D37 /* BaseViewController.swift in Sources */,
 				E8958ABC1DBA11C800773D37 /* UILabel+Common.swift in Sources */,
 			);
@@ -873,6 +909,7 @@
 			baseConfigurationReference = 01C3E0677BC4D906D6AB5567 /* Pods-TestKitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1000phone.TestKitchen;
@@ -885,6 +922,7 @@
 			baseConfigurationReference = 485EA1CFD110FAA6B0D88906 /* Pods-TestKitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = TestKitchen/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.1000phone.TestKitchen;
